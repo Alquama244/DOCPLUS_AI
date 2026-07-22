@@ -15,7 +15,7 @@ def setup_database():
             specialty TEXT NOT NULL,
             days TEXT NOT NULL,
             shift_time TEXT NOT NULL
-        )
+        )   
     """)
 
     # 3. Add sample doctors if the database is empty
